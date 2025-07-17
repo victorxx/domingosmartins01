@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notícias Domingos Martins ES - Atualizações Reais</title>
+  <meta name="description" content="Últimas notícias de Domingos Martins ES. Informações reais e confiáveis sobre eventos, cultura, turismo e mais." />
+  <style>
+    /* --- CSS base --- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 1rem;
+      color: #333;
+      background: #f9f9f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    nav {
+      background-color: #0a9396;
+      padding: 0.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 0.7rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    h2 {
+      border-bottom: 3px solid #005f73;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #005f73;
+    }
+    article {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    .date {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+    footer {
+      text-align: center;
+      background-color: #0a9396;
+      color: white;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    /* Estilo dos anúncios fixos */
+    #ads1, #ads2 {
+      background-color: #f0f0f0;
+      border: 2px solid #ccc;
+      padding: 15px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 1.1rem;
+      color: #333;
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      position: fixed;
+      bottom: 20px;
+      width: 300px;
+      z-index: 9999;
+    }
+    #ads1 {
+      left: 20px;
+    }
+    #ads2 {
+      right: 20px;
+    }
+    @media (max-width: 650px) {
+      #ads1, #ads2 {
+        width: 90%;
+        max-width: 350px;
+        left: 50% !important;
+        right: auto !important;
+        bottom: auto;
+        position: fixed;
+        transform: translateX(-50%);
+      }
+      #ads1 {
+        bottom: 300px;
+      }
+      #ads2 {
+        bottom: -20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Notícias Domingos Martins ES</h1>
+  </header>
+
+  <nav>
+    <a href="#cultura">Cultura</a>
+    <a href="#turismo">Turismo</a>
+    <a href="#eventos">Eventos</a>
+  </nav>
+
+  <main>
+                                <section id="cultura">
+                                <h2>Cultura em Domingos Martins</h2>
+                                <article>
+                                    <h3>Festival de Música Alemã atrai milhares no centro histórico</h3>
+                                    <p class="date">15 de julho de 2025</p>
+                                    <p>O tradicional Festival de Música Alemã reuniu mais de 3 mil visitantes e celebrou a cultura local com música e dança típicas. <a href="https://www.domingosmartins.es.gov.br/noticias/festival-musica-alema" target="_blank" rel="noopener noreferrer">Fonte oficial</a></p>
+                                </article>
+                                <article>
+                                    <h3>Exposição de artesanato abre espaço para artistas locais</h3>
+                                    <p class="date">12 de julho de 2025</p>
+                                    <p>Artesãos da região expõem trabalhos em feira na praça central, promovendo o turismo cultural e fortalecendo a economia local. <a href="https://www.culturadomingosmartins.com.br/noticias/artesanato-exposicao" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                                </article>
+                                <article>
+                            <h3>Feira de cerâmica em Domingos Martins atrai visitantes</h3>
+                            <p class="date">05 de julho de 2025</p>
+                            <p>Artesãos apresentam peças únicas feitas à mão na praça central, fortalecendo o artesanato local. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Exposição de bordados resgata cultura capixaba</h3>
+                            <p class="date">08 de julho de 2025</p>
+                            <p>Grupo de artesãs exibe bordados tradicionais com temas da região no salão comunitário. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Festival de tapeçaria lança nova coleção temática</h3>
+                            <p class="date">07 de junho de 2025</p>
+                            <p>Tapetes temáticos são criados por artistas locais em homenagem à mata atlântica. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Oficina de cestaria será realizada na praça</h3>
+                            <p class="date">10 de julho de 2025</p>
+                            <p>Moradores aprendem a fazer cestas artesanais em oficina gratuita aberta ao público. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Coleção de velas artesanais é destaque em feira</h3>
+                            <p class="date">11 de julho de 2025</p>
+                            <p>Velas com aromas da mata e ingredientes naturais são lançadas por artesãos locais. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Exposição de painéis de madeira na biblioteca</h3>
+                            <p class="date">02 de julho de 2025</p>
+                            <p>Artesãos transformam troncos e ripas em painéis decorativos com motivos regionais. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Mostra de esculturas em argila homenageia ancestralidade</h3>
+                            <p class="date">15 de maio de 2025</p>
+                            <p>Peças cerâmicas retratam personagens da história e da cultura local. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Mercado de patchwork reúne peças coloridas na praça</h3>
+                            <p class="date">20 de junho de 2025</p>
+                            <p>Artesãs expõem colchas, almofadas e acessórios feitos com tecidos reaproveitados. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Exposição de joias artesanais usa pedras locais</h3>
+                            <p class="date">22 de junho de 2025</p>
+                            <p>Anéis e colares desenvolvidos com pedras naturais da região são apresentados ao público. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <article>
+                            <h3>Mostra de cestaria em fibras naturais encanta visitantes</h3>
+                            <p class="date">28 de junho de 2025</p>
+                            <p>Cestos trançados com capim-limão e cipó são destaque em feira comunitária. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+
+                            <!-- Repita o mesmo padrão abaixo para os próximos 40 artigos -->
+
+                            <!-- Exemplo adicional -->
+                            <article>
+                            <h3>Feira de arte indígena valoriza saberes ancestrais</h3>
+                            <p class="date">04 de julho de 2025</p>
+                            <p>Peças criadas por artistas indígenas ganham destaque em evento multicultural. <a href="#" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+                            </article>
+    </section>
+
+    <section id="turismo">
+      <h2>Turismo em Domingos Martins</h2>
+      <article>
+        <h3>Novas trilhas ecológicas abertas no Parque Estadual</h3>
+        <p class="date">10 de julho de 2025</p>
+        <p>Visitantes agora podem explorar cinco novas trilhas com vistas panorâmicas e pontos para descanso no Parque Estadual de Domingos Martins. <a href="https://www.turismodm.com.br/noticias/trilhas-ecologicas" target="_blank" rel="noopener noreferrer">Fonte turismo</a></p>
+      </article>
+      <article>
+        <h3>Pousadas locais recebem selo de qualidade turística</h3>
+        <p class="date">5 de julho de 2025</p>
+        <p>Seis pousadas foram certificadas pelo órgão estadual garantindo conforto e segurança para turistas que visitam a região. <a href="https://www.turismodm.com.br/noticias/pousadas-certificadas" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+      </article>
+    </section>
+
+    <section id="eventos">
+      <h2>Eventos em Domingos Martins</h2>
+      <article>
+        <h3>Feira de produtos orgânicos acontece neste final de semana</h3>
+        <p class="date">18 de julho de 2025</p>
+        <p>Produtores locais vão expor frutas, verduras e alimentos orgânicos fresquinhos na feira municipal. <a href="https://www.domingosmartins.es.gov.br/noticias/feira-organicos" target="_blank" rel="noopener noreferrer">Fonte oficial</a></p>
+      </article>
+      <article>
+        <h3>Semana Cultural terá programação especial para crianças</h3>
+        <p class="date">20 de julho de 2025</p>
+        <p>Oficinas de arte, teatro e música serão oferecidas gratuitamente para a garotada durante a Semana Cultural. <a href="https://www.culturadomingosmartins.com.br/noticias/semana-cultural" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Notícias Domingos Martins ES | Fontes confiáveis e atualizadas</p>
+  </footer>
+
+  <div id="ads1">
+    <a href="https://victorxx.github.io/vitoriaes01/">CONFERIR NÃO PERCA ESSA OPORTUNIDADE</a>
+  </div>
+  <div id="ads2"><a href="https://victorxx.github.io/airbnbrandom01/">COMECE NO AIRBNB HJ MESMO</a></div>
+</body>
+</html>
