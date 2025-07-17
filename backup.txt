@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Notícias Domingos Martins ES - Atualizações Reais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Charset -->
+            <meta charset="UTF-8" />
+
+            <!-- Meta description - importante para SEO -->
+            <meta name="description" content="Acompanhe as últimas notícias de Domingos Martins - ES. Informações atualizadas e confiáveis sobre eventos, política, clima e mais.">
+
+            <!-- Palavras-chave (menos relevante hoje, mas ainda usado por alguns motores) -->
+            <meta name="keywords" content="Notícias Domingos Martins, ES, Atualizações, Jornal local, Informações Reais, Brasil, Clima, Política, Eventos">
+
+            <!-- Nome do autor ou da organização -->
+            <meta name="author" content="Portal Notícias Domingos Martins" />
+
+            <!-- Robots - controle de indexação -->
+            <meta name="robots" content="index, follow" />
+
+            <!-- Tema da barra de navegação no mobile (opcional) -->
+            <meta name="theme-color" content="#006400" />
   <meta name="description" content="Últimas notícias de Domingos Martins ES. Informações reais e confiáveis sobre eventos, cultura, turismo e mais." />
   <style>
     /* --- CSS base --- */
